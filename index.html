@@ -2,17 +2,67 @@
 <html>
 <head>
 <title>My index</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f0f0f0;
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    .dimension-list {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .dimension-item {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .dimension-item:hover {
+        background-color: #e0e0e0;
+    }
+    a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 </head>
 <body>
 
-<h1>My index (split into dimensions) </h1>
-<ul>
-    <li><a href="dimension1.html">Dimension 1</a></li>
-    <li><a href="prop-dimension.html">Prop Dimension</a></li>
-    <li><a href="war-dimension.html">War Dimension</a></li>
-    <li><a href="simulator-dimension.html">Simulator Dimension</a></li>
-    <li><a href="mysterious-dimension.html">Mysterious Dimension</a></li>
-</ul>
+<h1>My index (split into dimensions)</h1>
+
+<div class="dimension-list">
+    <div class="dimension-item">
+        <a href="dimension1.html">Dimension 1</a>
+    </div>
+    <div class="dimension-item">
+        <a href="prop-dimension.html">Prop Dimension</a>
+    </div>
+    <div class="dimension-item">
+        <a href="war-dimension.html">War Dimension</a>
+    </div>
+    <div class="dimension-item">
+        <a href="simulator-dimension.html">Simulator Dimension</a>
+    </div>
+    <div class="dimension-item">
+        <a href="mysterious-dimension.html">Mysterious Dimension</a>
+    </div>
+    <div class="dimension-item">
+        <a href="obby-dimension.html">Obby Dimension</a>
+    </div>
+</div>
 
 </body>
 </html>
